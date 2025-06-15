@@ -124,3 +124,32 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact-section {
+  text-align: center;
+  color: #4a90e2; /* 蓝色文字 */
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.contact-section p {
+  margin-bottom: 16px;
+}
+
+.contact-section a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+}
